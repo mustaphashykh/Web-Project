@@ -1,0 +1,4 @@
+.no-spinner {
+    -moz-appearance: textfield; /* Firefox */
+    appearance: textfield; /* Standard */
+}

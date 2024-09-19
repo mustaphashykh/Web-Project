@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .list-item {
+        @apply xs:px-4 px-2 py-0.5 xs:py-1 xs:text-base text-sm cursor-pointer hover:bg-[#B85042] hover:text-[#FCEDDA] active:bg-[#B85042] active:text-[#FCEDDA]
+    }
+}

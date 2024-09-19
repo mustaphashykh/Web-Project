@@ -41,6 +41,10 @@ const MyStateContextProvider = ({ children }) => {
         setCount(lastItemID + 1)
       }
     }
+    setItem('')
+    setWeight('')
+    setUnit('Unit')
+    setId('')
   }
 
   const getterAndSetter = (id) => {
@@ -89,6 +93,7 @@ const MyStateContextProvider = ({ children }) => {
     setItem('')
     setWeight('')
     setUnit('Unit')
+    setId('')
   }
 
   const stateHandler = (unit) => {

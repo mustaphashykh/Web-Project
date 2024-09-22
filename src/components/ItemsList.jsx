@@ -13,7 +13,7 @@ const ItemsList = () => {
                             <div>{item.item}</div>
                             <div>{item.weight}<span>{item.unit}</span></div>
                         </div>
-                        <div className="flex items-center justify-evenly w-full text-base">
+                        <div className="flex items-center justify-center gap-5 w-full text-base">
                             <i className="fa-solid fa-pen" onClick={() => getterAndSetter(item.id)} />
                             <i className="fa-solid fa-trash" onClick={() => removeFromCart(item.id)} />
                         </div>

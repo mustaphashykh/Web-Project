@@ -106,7 +106,7 @@ const MyStateContextProvider = ({ children }) => {
   }
   useEffect(() => {
     if (itemsArray.length > 0) {
-      setMessage('Tap Item To Remove From Cart.....')
+      setMessage('All items in your list....')
     } else {
       setMessage('Add Items To Cart....')
     }
